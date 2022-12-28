@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto+Slab&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* CSS start of first design */
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.divide{
+    width: 50%;
+    background-color: rgb(12, 59, 46);
+    color: white;
+    padding:5%;
+    padding-bottom:135px;
+}
+.divide h1{
+    font-size: 70px;
+    line-height: 1.1;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+.divide h2{
+    font-weight: 200;
+    margin-bottom: 100px;
+}
+.button{
+    margin-top: 40px;
+}
+.button a{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    background-color: orange;
+    padding:10px 40px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+.button a:hover{
+    background-color: black;
+    color:orange;
+}
+img{
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Media query */
+@media (max-width:750px){
+    .divide{
+        padding-bottom: 20px;
+    }
+    .divide h1{
+        font-size:30px;
+    }
+    .divide h2{
+        font-size:20px;
+        margin-bottom:50px;
+    }
+    .button a{
+        font-size:12px;
+        font-weight:800;
+        padding:8px 30px;
+    }
+}
+
+/* CSS end of first design */
+
+/* CSS start of Second design */
+.two{
+    background-color:rgb(109,150,114);
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* background-color:rgb(109,150,114) ; */
+}
+.most{
+    width:50%;
+    color:white;
+    padding:3%;
+}
+.most h1{
+    font-size: 60px;
+    font-family: sans-serif;
+}
+.sec{
+    width:50%;
+    color:white;
+    padding:2%;
+}
+.sec h2{
+    font-weight: 200;
+    font-size:25px;
+}
+.pic{
+    width:90%;
+    margin: auto;
+    padding-bottom: 85px;
+}
+.pic img{
+    width:100%;
+}
+@media(max-width:750px){
+    .most h1{
+    font-size: 30px;
+    }
+    .sec h2{
+        font-size:17px;
+    }
+    .pic{
+        padding:25px;
+    }
+    .pic img{
+        height:250px;
+    }
+}
+/* CSS end of second design */
+
+/* CSS start of third design */
+.third {
+    background-color: rgb(254,186,1);
+}
+.third h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    padding:70px;
+    font-weight: 650;
+}
+.column{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fir{
+    /* width:33%; */
+    padding-bottom: 50px;
+}
+.fir img{
+    height: auto;
+    width:450px;
+}
+.fir h2{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 28px;
+    margin-top:15px;
+}
+.fir h4{
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top:5px;
+    font-size:18px;
+    text-align: center;
+}
+.fir h3{
+    font-family: sans-serif;
+    margin-top:20px;
+    text-align: center;
+    font-size: 20px;
+}
+@media(max-width:750px){
+    .third h1{
+        font-size:30px;
+    }
+    .fir h4{
+        font-size:20px;
+    }
+    .column{
+        flex-direction:column;
+        align-items:center;
+    }
+    .fir img{
+        height:300px;
+        width:350px
+    }
+}
+/* CSS end of third design */
+
+/* CSS start of fourth design */
+.fourth{
+    background-color: rgb(109,150,114);
+    padding-bottom: 2px;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+}
+.first img{
+    height: 720px;
+    width: 700px;
+}
+.second{
+    padding:5%;
+    color:white;
+}
+.second h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    padding-bottom: 150px;
+}
+.list li{
+    list-style: none;
+    font-family: sans-serif;
+    line-height: 50px;
+    font-size: 30px;
+}
+@media(max-width:750px){
+    .first img{
+        height:600px;
+        width:350px;
+    }
+    .second h1{
+        font-size:35px;
+        margin-bottom:-20px;
+    }
+    .list li{
+        font-size:20px;
+    }
+}
+/* CSS end of fourth design */
+
+/* CSS start of fifth design */
+.divid h1{
+    margin-bottom:80px;
+}
+@media(max-width:750px){
+    .divid h1{
+        margin-bottom:60px;
+    }
+    img{
+        height:500px;
+    }
+}
