@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="style.css">
-        <title>Portfolio</title>
-        <meta charset="UTF-8">
-        <meta name="keywords" content="HTML, CSS, Portfolio">
-        <meta name="description" content="My Portfolio">
-        <meta name="author" content="Riket Pokharel">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="robots" content="nofollow">
-         <!-- facebook link -->
-    <meta property="og:url"                content="portfolio.html" />
-    <meta property="og:type"               content="article" />
-    <meta property="og:title"              content="What is your name" />
-    <meta property="og:description"        content="My name is ........" />
-    <meta property="og:image"              content="riket.jpg" />
-    
-        <!-- Twitter link -->
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, Portfolio">
+    <meta name="description" content="My Portfolio">
+    <meta name="author" content="Riket Pokharel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="nofollow">
+    <!-- facebook link -->
+    <meta property="og:url" content="portfolio.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="What is your name" />
+    <meta property="og:description" content="My name is ........" />
+    <meta property="og:image" content="riket.jpg" />
+
+    <!-- Twitter link -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@flickr" />
     <meta name="twitter:title" content="Small Island Developing States Photo Submission" />
@@ -28,67 +30,166 @@
     <meta name="twitter:image" content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg" />
 
 
-    
-    </head>
-    <!-- Start of body -->
-    <body>
-        <header>
-        <nav>
-            <li><a href="#intro">Intro</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </nav>
-        </header>
-        <section>
-        <div id="intro">
-        <h1>Riket Pokharel</h1>
-        <img src="riket.jpg" alt="riket.jpg" height="320px" width="300px">
-        <p>Hi, I am Riket Pokharel. Currently I am studying at Herald College Kathmandu</p>
-        </div>
+
+</head>
+<!-- Start of body -->
+
+<body>
+    <header class="back">
+        <section class="hero">
+            <nav>
+                <h2 class="logo">Ri<span>Ket</span></h2>
+                <ul>
+                    <li><a href="#home" class="current">Home</a></li>
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="text" data-aos="fade-up-right">
+                <p>Welcome</p>
+                <h2>I am <span>Riket</span> Pokharel</h2>
+                <button class="dev">Front End Developer</button>
+            </div>
         </section>
-        <div id="education">
-        <h2>Education</h2>
-        <table border="1" cellspacing="2">
-            <tr>
-                <th>Institute</th>
-                <th>Passed Year</th>
-            </tr>
-            <tr>
-                <th>ACME College of Engineering</th>
-                <th>2022</th>
-            </tr>
-            <tr>
-                <td>Herald College Kathmandu</td>
-                <td>Currently studying</td>
-            </tr>
-        </table>
-        </div>
-        <div id="hobbies">
-        <h2>Hobbies</h2>
-        <ol>
-            <li>Coding</li>
-            <li>Sports</li>
-            <li>Dancing</li>
-        </ol>
-        </div>
-        <div id="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <label>Name:</label>
-            <input name="text"><br><br>
-            <label>Email:</label>
-            <input name="text"><br><br>
-            <label>Message:</label>
-            <textarea></textarea><br><br>
-            <input type="submit" value="submit">
+    </header>
+    <!-- Header section ends here -->
 
-        </form>
-        </div><br>
+    <section class="divide">
+        <div id="intro" data-aos="fade-left"><br><br><br>
+            <img src="riket.jpg" alt="riket.jpg" height="330px" width="300px">
+        </div>
+        <div class="te" data-aos="fade-down">
+            <h4>Riket Pokharel</h4>
+            <h6>A Bachelor running student enthusiastic about Computer Science.</h6>
+            <p><br>Hello, I am Riket Pokharel. I am currently studying Bsc. Hons(Computer Science)<br> at Herlad College
+                Kathmandu which is affiliated to University of Wolverhampton, UK.<br> I have completed my Diploma in
+                Computer Engineering in 2022 from ACME College<br> of Engineering scoring 75.35%.<br> I have completed
+                my Secondary Education Examination(SEE) in 2018 from Shree <br>JanaJyoti Higher Secondary School scoring
+                'A' grade.<br><br></p>
+            <p><i class="fa fa-circle-o" style="font-size:15px;color:red"></i> <span
+                    style="color:black;font-weight:700">Home Address: </span>Lalbandi, Sarlahi</p>
+            <p><i class="fa fa-circle-o" style="font-size:15px;color:red"></i> <span
+                    style="color:black;font-weight:700">Current Address: </span>Naxal, Kathmandu</p>
+            <p><i class="fa fa-circle-o" style="font-size:15px;color:red"></i> <span
+                    style="color:black;font-weight:700">Age: </span>21</p>
+        </div>
+    </section>
+    <!-- Start of education section -->
+    
 
-        <footer>
-            <p>Contact me at Linkedin <a href="https://www.linkedin.com/in/pokharel-riket-631045220/" class="fa fa-linkedin-square" target="_blank"></a><br></p>
-            copyright&copy2022
-        </footer>
-    </body>
+    <section id="education"><br>
+        <h2 style="color:red; text-align: center;margin-bottom: 7px;">Education</h2>
+        <div class="part">
+            <div class="part1" data-aos="fade-left">
+                <h2><span>2022-current:</span><br> BSc.Hons(Computer Science)</h2>
+                <h3>University of Wolverhampton</h3>
+                <p>I am currently studying Bsc.Hons(Computer Science) at Herald College Kathmandu. I have basic knowledge about Java and Python.</p>
+            </div>
+            <div class="part1"  data-aos="fade-up">
+                <h2><span>2018-2022:</span><br>Diploma in Computer Engineering</h2>
+                <h3>ACME College of Engineering</h3>
+                <p>I am currently studying Bsc.Hons(Computer Science) at Herald College Kathmandu. I have basic knowledge about Java and Python.</p>
+            </div>
+            <div class="part1" data-aos="fade-right">
+                <h2><span>2018:</span><br>Secondary Education Examination</h2>
+                <h3>Shree JanaJyoti Higher Secondary School</h3>
+                <p>I am currently studying Bsc.Hons(Computer Science) at Herald College Kathmandu. I have basic knowledge about Java and Python.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- End of Education -->
+
+    <!-- Start of Hobbies -->
+    
+    <section id="hobbies"><br>
+        <h2 style="color:red; text-align: center;margin-bottom: 7px;">Hobbies</h2>
+        <div class="new">
+        <div class="img-box">
+            <img src="pp.jpg" class="pp">
+            <figcaption>CODING</figcaption>
+            <p>I love coding. I have good knowledge of front end development. I usually wake up all the night for coding. Its my passion.</p>
+        </div>
+        <div class="img-box">
+            <img src="sp.jpg" class="pp">
+            <figcaption>SPORTS</figcaption>
+            <p>Since my childhood I was a football fan. I usually go to futsal to play football. I support a Spanish club Real Madrid.</p>
+        </div>
+        <div class="img-box">
+            <img src="gaming.png" class="pp">
+            <figcaption>GAMING</figcaption>
+            <p>I also love to play video games like GTAV, FIFA, PES, etc. When I am free I enjoy my time by playing different video games.</p>
+        </div>
+
+    </div>  
+    </section><br><br>
+    <!-- End of Hobbies -->
+    <!-- Start of contact me -->
+    <div id="contact">
+        <h2 style="color:red; text-align: center;margin-bottom: 7px;">Contact Me</h2><br><br>
+        <div class="contact-me">
+            <div class="me">
+                <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <a href="https://goo.gl/maps/g66UexJREywRjAPU9" target="_blank" style="text-decoration: none;"><h5>Hadigaun Marg, St.George</h5></a>
+                    <p>Bishalnagar, Kathmandu</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <a href="tel:+977 9824818023" style="text-decoration: none;"><h5>+977 9824818023</h5></a>
+                        <p>Sunday to Friday</p>
+                    </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                        <a href="mailto:pokharelriket777@gmail.com" style="text-decoration: none;"> <h5>pokharelriket777@gmail.com</h5></a>
+                            <p>Feel free to email</p>
+                        </span>
+                        </div>
+            </div>
+            
+            <div class="me">
+                <form>
+                    <input type="text" placeholder="Enter your name" name="name" required autocomplete="off">
+                    
+                    <input type="email" placeholder="Enter your Email" name="email" required>
+                    
+                    <textarea rows="4" placeholder="Enter your message" name="message" required></textarea><br>
+                    <input class="but" type="submit" value="Send Message">
+        
+                </form>
+
+            </div>
+            <div class="me">
+                <footer>
+                    <p>Let's get connected:<br><a href="https://www.linkedin.com/in/pokharel-riket-631045220/"
+                            class="fa fa-linkedin-square" target="_blank"></a><a href="https://www.facebook.com/ronaldista.riket"
+                            class="fa fa-facebook" target="_blank"></a> <a href="https://www.instagram.com/pokharelriket/"
+                            class="fa fa-instagram" target="_blank"></a> </p>
+                           <h3>copyright&copy2023</h3>
+                </footer>
+            </div>
+
+        </div>
+        
+    </div><br>
+
+    
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 170, duration: 1200
+        });
+    </script>
+</body>
+
 </html>

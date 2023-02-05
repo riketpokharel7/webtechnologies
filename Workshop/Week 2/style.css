@@ -1,28 +1,287 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 /* This is applicable over all website */
 *{
-    background-color:whitesmoke;
+    /* background-color: #ececec; */
+    padding:0;
+    margin:0;
     font-family: 'Roboto Slab', serif;
 }
+html{
+    scroll-behavior: smooth;
+    background-color: #ececec; 
+}
 /* end of universal selector */
-nav,li{
-    display: inline;
+.back{
+    height:100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(gaming.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-bottom: 5rem;
 }
-nav,a{
-    text-align:center ;
-    padding:0.5rem;
-    margin:0.7rem;
-    font-size: 20px;
+
+.logo{
+    font-size:30px;
+    color:white;
+}
+.logo span{
+    color:red;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2% 5%;
+    background-color: rgba(15, 10, 10, 0.7);
+    
+}
+.logo{
+    color:white;
+    font-size: rem;
+}
+span{
+    color:#ea1538;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:0 1.5rem;
+}
+nav ul li a{
+    color:white;
     text-decoration: none;
-    list-style: none;
-    color: red;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
 }
-.intro,img{
-    border:2px solid black;
+nav ul li a:hover{
+    color:#ea1538;
+    transition: 0.3s;
+}
+nav .current{
+    color:#ea1538
+}
+.text  {
+    text-align: center;
+    padding-top:13rem;
+}
+.text p{
+    color:white;
+    font-size: 25px;
+}
+.text h2{
+    margin-top:1.5rem;
+    color:White;
+    font-size: 40px;
+}
+.text button{
+    margin-top:2rem;
+    background-color: #ea1538;
+    color:white;
+    font-size:15px;
+    padding:5px 12px;
+    border:none;
+    border-radius: 25px;
+    cursor:text;
+}
+/* Header section ends here */
+
+.divide{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 7rem;
+    animation:mymove 3s infinite;
+}
+#intro img{
     margin:5px;
     padding:6px;
+    /* border-style: solid;
+    border-width:4px;
+    border-color: red green blue black; */
+    border:4px solid red;
+    margin-right: 7rem;
+    /* border-radius: 5px; */
 }
-footer .fa{
+.te h4{
+    margin-top:2rem;
+    font-size:30px;
+    font-weight: 200;
+    padding-bottom: 1rem;
+}
+.te h6{
+    font-size:17px;
+    color:#ea1538;
+    font-weight: 200;
+}
+.te p{
+    color:rgb(76, 73, 73);
+}
+.te i{
+    margin:8px 3px 8px 0px;
+}
+
+/* Education section starts from here */
+.part{
+    margin-top:2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+.part1{
+    padding-top:10px;
+    width:30%;
+    background-color: #f2f6f6;
+    align-items: center;
+    margin:auto;
+    text-align: center;
+    border-radius: 2px;
+    transition: 0.4s;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.part1:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.4);
+}
+.part1 h2 span{
+    font-weight: 200;
+    font-size:20px;
+    background-color: #ea1538;
+    color:white;
+    padding:2px 5px;
+    border-radius: 2px;
+    text-align: left;
+}
+.part1 h2{
+    font-weight: 200;
+    padding-bottom: 3px;
+    text-align: left;
+}
+.part1 h3{
+    color:#ea1538;
+    font-weight: 200;
+    font-size: 15px;
+    padding-bottom: 5px;
+    /* text-align: left; */
+}
+.part1 p{
+    padding-bottom: 7px;
+}
+/* End of Education seciton */
+
+/* Start of Hobbies */
+#hobbies{
+    background-color: #ececec;
+}
+.new{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.pp{
+    height: 40vh;
+    width:100%;
+    transition: all 1s ease-in-out;
+    border-radius: 0.4rem;
+}
+.pp:hover{
+    transform: scale(1.06);
+}
+.img-box{
+    background-color: rgb(255, 255, 255);
+    width:350px;
+    height:450px;
+    border:7px solid rgb(255, 255, 255);
+    border-radius: 0.7rem;
+    overflow: hidden;
+}
+.img-box figcaption{
+    padding:10px 5px 5px;
+    font-weight: 600;
+    font-size:20px;
+}
+.img-box p{
+    padding:7px;
+    text-align: justify;
+}
+/* End of Hobbies */
+
+/* Start of Contact me */
+.contact-me {
+    display: flex;
+    justify-content: space-around;
+}
+.contact-me .fa{
+    font-size: 30px;
+    color:#f44336;
+    margin-bottom: 10px;
+    margin-right:20px;
+}
+.me div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.me h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color:#555;
+    font-weight:400;
+    
+}
+.me p{
+    color:#777;
+    font-size:15px;
+}
+.me form{
+        text-align: center;
+}
+.me input, .me textarea{
+    width:60%;
+    padding:15px;
+    margin-bottom: 17px;
+    outline:none;
+    border:1px solid #ccc;
+}
+.me .but{
+    background-color: white;
+    color:red;
+    border:1px solid red;
+    border-radius: 70px;
+    width: 150px;
+    transition: 0.2s;
+    padding:15px 22px;
+}
+.me .but:hover{
+    background-color:red;
+    cursor: pointer;
+    color:white;
+}
+/* Footer starts */
+.me footer .fa-linkedin-square{
     color:#0A66C2;
     font-size: 30px;
+    text-decoration: none;
+    padding:10px 0px;
+    padding-left:10px;
+}
+.me footer .fa-facebook{
+    color:#3b5998;
+    text-decoration: none;
+    font-size:28px;
+}
+.me footer .fa-instagram{
+    color:red;
+    text-decoration: none;
+    font-size: 30px;
+}
+.me footer p{
+    color:black;
+}
+.me footer h3{
+    /* padding-top:70px; */
+    font-size: 17px;
+    font-weight: 400;
 }
